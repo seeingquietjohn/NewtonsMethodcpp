@@ -2,7 +2,7 @@
 //  Functions.cpp
 //  NewtonsMethodcpp
 //
-//  Created by Seungkyo Jeong on 8/17/25.
+//  
 //
 
 #include "Functions.hpp"
