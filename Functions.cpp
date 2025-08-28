@@ -18,7 +18,8 @@ std::vector<double> Function::newtonsMethod(double x0, double tol, int max_iter)
         double fx = evaluate(x);
         double dfx = evaluateDeriv(x);
         // make sure derivative is nonzero
-        if (dfx == 0) {
+        
+        if (dfx <= 1e-20) {
             throw std::runtime_error("Derivative must be nonzero...");
         }
         
